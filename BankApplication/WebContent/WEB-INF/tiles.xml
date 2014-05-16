@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="registrationPage" template="/pages/template/template.jsp">
+<put-attribute name="header" value="/pages/headers/defaultHeader.jsp" />
+<put-attribute name="menu" value="/pages/menu/defaultMenu.jsp" />
+<put-attribute name="body" value="/pages/body/registration_body.jsp" />
+<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+    </definition>
+    
+    	
+<!--     <definition name="homePage" extends="loginPage"> -->
+    <definition name="homePage" >
+		<put-attribute name="body" value="/pages/body/home_body.jsp" />
+	</definition>
+	    
+    <definition name="bankerHomePage" template="/pages/template/template.jsp">
+<put-attribute name="header" value="/pages/headers/bankerLoggedInHeader.jsp" />
+<put-attribute name="menu" value="/pages/menu/bankerLoggedInMenu.jsp" />
+<put-attribute name="body" value="/pages/body/bankerHome_body.jsp" />
+<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+    </definition>
+    
+    <definition name="loginPage" template="/pages/template/loginTemplate.jsp">
+    <put-attribute name="header" value="/pages/headers/CustomHeader.jsp" />
+		<put-attribute name="body" value="/pages/body/login_body.jsp" />
+<!-- 		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" /> -->
+	</definition>
+    
+    
+    	<definition name="customerHomePage" template="/pages/template/template.jsp">
+<put-attribute name="header" value="/pages/headers/customerLoggedInHeader.jsp" />
+<put-attribute name="menu" value="/pages/menu/customerLoggedInMenu.jsp" />
+<put-attribute name="body" value="/pages/body/customerHome_body.jsp" />
+<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+    </definition>
+    
+    <definition name="customerAccountSummaryPage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/customerLoggedInHeader.jsp" />
+<put-attribute name="menu" value="/pages/menu/customerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/customerAccountSummary_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+	
+	<definition name="customerWithdrawDepositPage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/customerLoggedInHeader.jsp" />
+<put-attribute name="menu" value="/pages/menu/customerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/customerWithdrawDeposit_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+	
+	<definition name="customerFundsTransferPage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/customerLoggedInHeader.jsp" />
+<put-attribute name="menu" value="/pages/menu/customerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/customerFundsTransfer_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+	
+	<definition name="customerTransactionPage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/customerLoggedInHeader.jsp" />
+<put-attribute name="menu" value="/pages/menu/customerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/customerTransaction_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+	
+	<definition name="customerAccountSummaryPage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/customerLoggedInHeader.jsp" />
+<put-attribute name="menu" value="/pages/menu/customerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/customerAccountSummary_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+	
+	<definition name="CustomerChangePasswordPage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/customerLoggedInHeader.jsp" />
+<put-attribute name="menu" value="/pages/menu/customerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/customerChangePassword_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+	
+		
+	<!-- Created by ZarniMMM -->
+	
+	<definition name="CustomerBankAccountListingPage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/bankerLoggedInHeader.jsp" />
+	<put-attribute name="menu" value="/pages/menu/bankerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/CustomerBankAccountListing_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+	
+	<definition name="CustomerBankAccountMaintainencePage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/bankerLoggedInHeader.jsp" />
+<put-attribute name="menu" value="/pages/menu/bankerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/CustomerBankAccountMaintainence_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+	
+	<definition name="JointBankAccountPage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/bankerLoggedInHeader.jsp" />
+<put-attribute name="menu" value="/pages/menu/bankerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/JointBankAccount_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+	
+	<definition name="BranchListingPage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/bankerLoggedInHeader.jsp" />
+<put-attribute name="menu" value="/pages/menu/bankerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/branchlist_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+		
+	<definition name="CustomerListPage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/bankerLoggedInHeader.jsp" />
+	<put-attribute name="menu" value="/pages/menu/bankerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/customerlist_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+	
+	<definition name="NewBranchPage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/bankerLoggedInHeader.jsp" />
+	<put-attribute name="menu" value="/pages/menu/bankerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/NewBranch_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+	
+	<definition name="NewCustomerPage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/bankerLoggedInHeader.jsp" />
+	<put-attribute name="menu" value="/pages/menu/bankerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/newcustomer_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+		<definition name="UpdateBranchPage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/bankerLoggedInHeader.jsp" />
+	<put-attribute name="menu" value="/pages/menu/bankerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/BranchDetail_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+	
+	<definition name="UpdateCustomerPage" template="/pages/template/template.jsp">
+    <put-attribute name="header" value="/pages/headers/bankerLoggedInHeader.jsp" />
+	<put-attribute name="menu" value="/pages/menu/bankerLoggedInMenu.jsp" />
+		<put-attribute name="body" value="/pages/body/customerdetail_body.jsp" />
+		<put-attribute name="footer" value="/pages/footer/Team4BFooter.jsp" />
+	</definition>
+	
+</tiles-definitions>
